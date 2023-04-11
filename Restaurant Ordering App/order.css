@@ -1,0 +1,63 @@
+body{
+    font-family: 'Smythe', cursive;
+    font-size: 12px;
+
+}
+.main{
+    height: 167px;
+}
+
+header{
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    margin: -10;
+    padding: 10px;
+    display: flex;
+    color: #FFFFFF;
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    size: 24px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+
+}
+h4{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 22.4216px;
+    line-height: 14px;
+    
+}
+.diner{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    gap: 0px;
+}
+.display{
+   width: 80px;
+   margin-top: 10px;
+   height: 70spx;
+
+}
+.menu-item{
+  display: flex; 
+  position: relative;
+  width: 508px;
+  height: 120px;
+  padding: 20px 25px;
+  gap: 40px;
+  border-bottom: 1px solid lightgrey;
+}
+.icon{
+    align-self: center;
+    position: absolute;
+    left: 500px;
+
+    
+}
